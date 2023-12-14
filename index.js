@@ -7,7 +7,7 @@ function tryParse(value) {
     }
 }
 
-module.exports = function tinyQueryParamParser(queryParams) {
+module.exports = function objectFromSearchParams(queryParams) {
     const searchParams = new URLSearchParams(queryParams);
 
     const result = {};
