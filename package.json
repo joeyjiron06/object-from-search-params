@@ -1,0 +1,11 @@
+{
+  "name": "object-from-search-params",
+  "version": "1.0.0",
+  "description": "a very tiny package that parses query params of an unknow schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test index.test.js"
+  },
+  "author": "joey jiron <joeyjiron06@gmail.com>",
+  "license": "ISC"
+}
